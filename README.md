@@ -43,7 +43,7 @@ $ curl -s 'http://api.greynoise.io:8888/v1/query/list'
 }
 ```
 
--- /v1/query/ip (POST)
+/v1/query/ip (POST)
 
 Required Parameters:
     <ip> - IP address to query
@@ -81,7 +81,7 @@ $ curl -s -XPOST -d 'ip=198.20.69.74' 'http://api.greynoise.io:8888/v1/query/ip'
 }
 ```
 
--- /v1/query/tag (POST)
+/v1/query/tag (POST)
 
 Required Parameters:
     <tag>
