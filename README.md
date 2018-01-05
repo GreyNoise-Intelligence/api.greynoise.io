@@ -147,6 +147,8 @@ $ curl -s -XPOST -d 'tag=SHODAN' http://api.greynoise.io:8888/v1/query/tag | jq 
 }
 ```
 
+## Stats
+
 The following is a snapshot of the data (updated Jan 1, 2018):
 ```
            tag_name            |              tag_id               | confidence |   category    | count
