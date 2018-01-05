@@ -49,11 +49,13 @@ $ curl -s 'http://api.greynoise.io:8888/v1/query/list'
 
 Method: `POST`
 
-Required Parameters:
-    * <ip> - IP address to query
+Required Parameters:  
 
-Optional Parameters:
-    * <key> - A valid API key enables you to receive more than 500 results per query
+* ip - IP address to query
+
+Optional Parameters:  
+
+* key - A valid API key enables you to receive more than 500 results per query
 
 Example:
 
@@ -90,10 +92,12 @@ $ curl -s -XPOST -d 'ip=198.20.69.74' 'http://api.greynoise.io:8888/v1/query/ip'
 Method: `POST`
 
 Required Parameters:
-    * <tag> - Which tag to query
+
+* tag - Which tag to query
 
 Optional Parameters:
-    * <key> - A valid API key enables you to receive more than 500 results per query
+
+* key - A valid API key enables you to receive more than 500 results per query
 
 Example:
 
