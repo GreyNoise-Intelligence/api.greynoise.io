@@ -1,4 +1,4 @@
-# GreyNoise Intelligence Alpha API
+# Grey Noise Intelligence Alpha API
 
 ## Summary:
 
@@ -9,6 +9,7 @@ The data is collected by a network of sensors deployed around the Internet in va
 ## URL: 
 
 ```
+https://api.greynoise.io/
 http://api.greynoise.io:8888/
 ```
 
