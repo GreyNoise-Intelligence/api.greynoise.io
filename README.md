@@ -105,7 +105,7 @@ Example:
 ```
 $ curl -s -XPOST -d 'tag=SHODAN' http://api.greynoise.io:8888/v1/query/tag | jq '.'
 {
-  "tag": "YANDEX_SEARCH_ENGINE",
+  "tag": "SHODAN",
   "status": "ok",
   "records": [
     {
