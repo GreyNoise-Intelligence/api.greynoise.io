@@ -1,8 +1,8 @@
-# Grey Noise Intelligence Alpha API
+# GreyNoise Intelligence Alpha API
 
 ## Summary:
 
-Grey Noise is a system that collects and analyzes data on Internet-wide scanners. Grey Noise collects data on benign scanners such as Shodan.io, as well as malicious actors like SSH and telnet worms. 
+GreyNoise is a system that collects and analyzes data on Internet-wide scanners. GreyNoise collects data on benign scanners such as Shodan.io, as well as malicious actors like SSH and telnet worms. 
 
 The data is collected by a network of sensors deployed around the Internet in various datacenters, cloud providers, and regions.
 
