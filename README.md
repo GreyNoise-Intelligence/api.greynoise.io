@@ -27,7 +27,7 @@ Required Parameters: NONE
 
 Example:
 ```
-$ curl -s 'http://api.greynoise.io:8888/v1/query/list'
+$ curl -s 'http://api.greynoise.io:8888/v1/query/list' | jq '.'
 {
   "status": "ok",
   "tags": [
@@ -61,7 +61,7 @@ Optional Parameters:
 Example:
 
 ```
-$ curl -s -XPOST -d 'ip=198.20.69.74' 'http://api.greynoise.io:8888/v1/query/ip'
+$ curl -s -XPOST -d 'ip=198.20.69.74' 'http://api.greynoise.io:8888/v1/query/ip' | jq '.'
 {
   "ip": "198.20.69.74",
   "status": "ok",
