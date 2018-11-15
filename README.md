@@ -2,13 +2,14 @@
 
 ## Summary:
 
-Grey Noise is a system that collects and analyzes data on Internet-wide scanners. Grey Noise collects data on benign scanners such as Shodan.io, as well as malicious actors like SSH and telnet worms. 
+GreyNoise is a system that collects and analyzes data on Internet-wide scanners. GreyNoise collects data on benign scanners such as Shodan.io, as well as malicious actors like SSH and telnet worms. 
 
 The data is collected by a network of sensors deployed around the Internet in various datacenters, cloud providers, and regions.
 
 ## URL: 
 
 ```
+https://api.greynoise.io/
 http://api.greynoise.io:8888/
 ```
 
@@ -26,7 +27,7 @@ Required Parameters: NONE
 
 Example:
 ```
-$ curl -s 'http://api.greynoise.io:8888/v1/query/list'
+$ curl -s 'http://api.greynoise.io:8888/v1/query/list' | jq '.'
 {
   "status": "ok",
   "tags": [
@@ -60,7 +61,7 @@ Optional Parameters:
 Example:
 
 ```
-$ curl -s -XPOST -d 'ip=198.20.69.74' 'http://api.greynoise.io:8888/v1/query/ip'
+$ curl -s -XPOST -d 'ip=198.20.69.74' 'http://api.greynoise.io:8888/v1/query/ip' | jq '.'
 {
   "ip": "198.20.69.74",
   "status": "ok",
@@ -104,7 +105,7 @@ Example:
 ```
 $ curl -s -XPOST -d 'tag=SHODAN' http://api.greynoise.io:8888/v1/query/tag | jq '.'
 {
-  "tag": "YANDEX_SEARCH_ENGINE",
+  "tag": "SHODAN",
   "status": "ok",
   "records": [
     {
