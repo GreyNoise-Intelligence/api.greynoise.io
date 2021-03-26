@@ -1,6 +1,6 @@
 # GreyNoise Intelligence Community API
 
-> :warning: **The GreyNoise Alpha (v1) API has been deprecated and replaced by the GreyNoise Community API.
+> :warning: **The GreyNoise Alpha (v1) API has been deprecated and replaced by the GreyNoise Community API.**
 
 ## Summary:
 
